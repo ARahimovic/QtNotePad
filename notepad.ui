@@ -67,16 +67,28 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNew">
+   <property name="icon">
+    <iconset resource="Resources/IconImages.qrc">
+     <normaloff>:/Imgs/New.bmp</normaloff>:/Imgs/New.bmp</iconset>
+   </property>
    <property name="text">
     <string>New</string>
    </property>
   </action>
   <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="Resources/IconImages.qrc">
+     <normaloff>:/Imgs/Open.bmp</normaloff>:/Imgs/Open.bmp</iconset>
+   </property>
    <property name="text">
     <string>Open</string>
    </property>
   </action>
   <action name="actionSave_As">
+   <property name="icon">
+    <iconset resource="Resources/IconImages.qrc">
+     <normaloff>:/Imgs/Save.bmp</normaloff>:/Imgs/Save.bmp</iconset>
+   </property>
    <property name="text">
     <string>Save As</string>
    </property>
@@ -92,16 +104,28 @@
    </property>
   </action>
   <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="Resources/IconImages.qrc">
+     <normaloff>:/Imgs/Copy.bmp</normaloff>:/Imgs/Copy.bmp</iconset>
+   </property>
    <property name="text">
     <string>Copy</string>
    </property>
   </action>
   <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="Resources/IconImages.qrc">
+     <normaloff>:/Imgs/Paste.bmp</normaloff>:/Imgs/Paste.bmp</iconset>
+   </property>
    <property name="text">
     <string>Paste</string>
    </property>
   </action>
   <action name="actionCut">
+   <property name="icon">
+    <iconset resource="Resources/IconImages.qrc">
+     <normaloff>:/Imgs/Cut.bmp</normaloff>:/Imgs/Cut.bmp</iconset>
+   </property>
    <property name="text">
     <string>Cut</string>
    </property>
@@ -117,6 +141,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="Resources/IconImages.qrc"/>
+ </resources>
  <connections/>
 </ui>
