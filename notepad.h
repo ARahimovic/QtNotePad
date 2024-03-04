@@ -8,7 +8,7 @@
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QTextStream>
-
+#include <QDebug>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -47,5 +47,6 @@ private slots:
 
 private:
     Ui::NotePad *ui;
+    QString currentFile;
 };
 #endif // NOTEPAD_H
